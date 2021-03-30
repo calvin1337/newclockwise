@@ -1,0 +1,56 @@
+.linkContainer{
+    width:100%;
+    background:#F3F3F3;
+    text-align: center;
+    
+    }
+    
+    .testing{
+      width: 100%;
+      padding: 60px 0 45px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      background:#F3F3F3;
+    }
+    
+    .testing li {
+      background: #888;
+      color: white;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 24px;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      text-align: center;
+      cursor: pointer;
+      margin-right: 3px;
+      position: relative;
+      transition: all 0.3s;
+      font-family: sans-serif;
+  }
+  
+    
+  .testing li:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.testing li:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+.testing li.active{
+    background: #222;
+    color: #fff;
+}
+
+.testing li:hover{
+  background: #222;
+  color: #fff;
+}
+
+
